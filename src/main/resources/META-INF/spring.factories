@@ -1,0 +1,10 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.github.chenjazz.DingTalkMachineAutoConfiguration
+#
+# ApplicationListener
+org.springframework.context.ApplicationListener=com.github.chenjazz.listener.MyStartListener,\
+  com.github.chenjazz.listener.MySuccessListener,\
+  com.github.chenjazz.listener.MyFailListener
+
+
