@@ -6,7 +6,7 @@
 ```
 git clone https://github.com/chenjazz/DingTalkMachineWithSpringBoot.git
 ```
-进入项目目录，安装到maven库。
+进入项目目录，安装到本地maven库。
 ```
 mvn clean install
 ```
@@ -24,11 +24,11 @@ mvn clean install
 
 ![](image33333.png)
 
-4.启动项目时指定参数
+4.启动你的项目项目时指定参数
 ```
-nohup java -jar synchronize-1.jar --ding-url={自定义机器人webhook} --ding-app-name={你的应用程序名字} &
+nohup java -jar your-project-1.jar --ding-url={自定义机器人webhook} --ding-app-name={你的应用程序名字} &
 ```
 
-5.程序启动，关闭，成功，失败后会自动通知，效果如下
+5.程序启动，关闭（kill的参数不为-9），成功，失败后会自动通知，效果如下
 
 ![](image444.png)
