@@ -11,6 +11,7 @@ git clone https://github.com/chenjazz/DingTalkMachineWithSpringBoot.git
 mvn clean install
 ```
 
+
 2.在你的SpringBoot项目Pom中加入本项目依赖
 ```
 <dependency>
